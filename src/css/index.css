@@ -66,11 +66,13 @@ button {
   font-size: 1rem;
   text-align: center;
   cursor: pointer;
+  margin: 10px;
 }
 
 .primary-btn {
     background-color: #1515df;
     color: rgb(240, 243, 245);
+    margin: 20px auto; 
 }
 
 .secondary-btn {
