@@ -1,0 +1,54 @@
+/* Skills */
+
+#skills {
+  background-color: #ffffff;
+}
+
+h3 {
+  text-align: center;
+  padding: 10px;
+  font-size: 23px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5px;
+}
+#skills-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.languages-container,
+.web-skills-box,
+.tools-box {
+  margin: auto;
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+div.skill {
+  font-size: 60px;
+  padding: 5px;
+}
+
+div.skill:hover {
+  cursor: pointer;
+  animation: earth 450ms ease-in 1;
+}
+@keyframes earth {
+  0% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  div.skill {
+    font-size: 45px;
+  }
+}
