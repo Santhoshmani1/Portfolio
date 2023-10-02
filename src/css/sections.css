@@ -30,25 +30,23 @@ h3 {
 }
 
 div.skill {
-  font-size: 60px;
+  text-align: center;
+  font-family: "Open Sans", "Roboto",sans-serif ;
+}
+
+div.skill-icon {
+  font-size: 40px;
   padding: 5px;
 }
 
-div.skill:hover {
+div.skill-icon:hover {
   cursor: pointer;
-  animation: earth 450ms ease-in 1;
 }
-@keyframes earth {
-  0% {
-    rotate: 0deg;
-  }
-  100% {
-    rotate: 360deg;
-  }
-}
+
+
 
 @media only screen and (max-width: 768px) {
   div.skill {
-    font-size: 45px;
+    font-size: 20px;
   }
 }

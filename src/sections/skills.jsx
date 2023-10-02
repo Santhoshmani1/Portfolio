@@ -21,31 +21,52 @@ const Skills = () => {
           <div id="programming-languages">
             <h3>Programming Languages</h3>
             <div className="languages-container">
-              <div style={{color:"#069"}} className="skill language">
-                <SiCplusplus />
+              <div className="skill language">
+                <div className="skill-icon">
+                  <SiCplusplus style={{ color: "#069" }} />
+                </div>
+                <div className="skill-name">C++</div>
               </div>
-              <div style={{color:"#f7e024"}}className="skill language">
-                <SiJavascript />
+              <div className="skill language">
+                <div className="skill-icon">
+                  <SiJavascript style={{ color: "#f7e024" }} />
+                </div>
+                <div className="skill-name">Javascript</div>
               </div>
-              <div style={{color:"#069"}} className="skill language">
-                <SiPython />
+              <div style={{ color: "#069" }} className="skill language">
+                <div className="skill-icon">
+                  <SiPython />
+                </div>
+                <div className="skill-name">Python</div>
               </div>
             </div>
           </div>
           <div id="web-technologies">
             <h3>Web Technologies</h3>
             <div className="web-skills-box">
-              <div style={{color:"#66dbfb"}}className="skill web">
-                <SiReact />
+              <div className="skill web">
+                <div className="skill-icon">
+                  <SiReact style={{ color: "#66dbfb" }} />
+                </div>
+                <div className="skill-name">React js</div>
               </div>
-              <div style={{color:"green"}}className="skill web">
-                <SiNodedotjs />
+              <div className="skill web">
+                <div className="skill-icon">
+                  <SiNodedotjs style={{ color: "green" }} />
+                </div>
+                <div className="skill-name">Node js</div>
               </div>
-              <div style={{color:"#f88615"}} className="skill web">
-                <SiHtml5 />
+              <div className="skill web">
+                <div className="skill-icon">
+                  <SiHtml5 style={{ color: "#f88615" }} />
+                </div>
+                <div className="skill-name">HTML</div>
               </div>
-              <div style={{color:"#069aed"}} className="skill web">
-                <SiCss3 />
+              <div className="skill web">
+                <div className="skill-icon">
+                  <SiCss3 style={{ color: "#069aed" }} />
+                </div>
+                <div className="skill-name">CSS</div>
               </div>
             </div>
           </div>
@@ -53,16 +74,28 @@ const Skills = () => {
             <h3>Tools & Software</h3>
             <div className="tools-box">
               <div className="skill tool">
-                <SiGnubash />
+                <div className="skill-icon">
+                  <SiGnubash />
+                </div>
+                <div className="skill-name">Bash</div>
               </div>
-              <div style={{color:"blue"}}className="skill tool">
-                <SiJira />
+              <div className="skill tool">
+                <div className="skill-icon">
+                  <SiJira style={{ color: "blue" }} />
+                </div>
+                <div className="skill-name">Jira</div>
               </div>
-              <div style={{color:"#fc4f28"}} className="skill tool">
-                <SiGit />
+              <div className="skill tool">
+                <div className="skill-icon">
+                  <SiGit style={{ color: "#fc4f28" }} />
+                </div>
+                <div className="skill-name">Git</div>
               </div>
-              <div style={{color:"black"}}className="skill tool">
-                <SiGithub />
+              <div className="skill tool">
+                <div className="skill-icon">
+                  <SiGithub />
+                </div>
+                <div className="skill-name">Github</div>
                 <div></div>
               </div>
             </div>
