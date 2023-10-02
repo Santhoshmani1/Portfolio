@@ -8,7 +8,7 @@ export const Contact = () => {
     <>
     <section id="contact">
       <div id="contact-container">
-        <span className="material-icons">call</span>
+       
         <h2>Contact</h2>
         <form action="post" id="contact-form">
           <div className="form-group">

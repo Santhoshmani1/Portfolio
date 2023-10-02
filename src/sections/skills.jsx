@@ -33,9 +33,9 @@ const Skills = () => {
                 </div>
                 <div className="skill-name">Javascript</div>
               </div>
-              <div style={{ color: "#069" }} className="skill language">
+              <div className="skill language">
                 <div className="skill-icon">
-                  <SiPython />
+                  <SiPython style={{ color: "#069" }} />
                 </div>
                 <div className="skill-name">Python</div>
               </div>

@@ -5,7 +5,7 @@ export const Header = () => {
     <>
       <div className="header-container">
         <div className="title-container">
-          <h1 style={{ userSelect: "none" }}>Santhosh portfolio</h1>
+         <a href="#"> <h1>Santhosh portfolio</h1></a>
         </div>
 
         <button id="nav-btn" onClick={toggleNavbar}>

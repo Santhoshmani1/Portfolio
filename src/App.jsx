@@ -1,16 +1,25 @@
-import { Home } from './components/Home'
-import Footer from './components/footer'
+import { Header } from "./sections/Header";
+import { Home } from "./sections/Home";
+import {Contact} from "./sections/contact";
+import Footer from "./sections/footer";
+import { Projects } from "./sections/projects";
+import Skills from "./sections/skills";
 
-import './css/App.css'
+import "./css/App.css";
+import "./css/sections.css"
 
 function App() {
 
   return (
     <>
-    <Home />
-    <Footer />
+      <Header />
+      <Home />
+      <Skills />
+      <Projects />
+      <Contact />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

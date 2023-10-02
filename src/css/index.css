@@ -22,7 +22,7 @@ body {
   --primary-btn-text: #fff;
 
   --secondary-btn-color: #e6f33b;
-  --secondary-btn-text: #1515df;
+  --secondary-btn-text: #1515c0;
 }
 
 
@@ -72,7 +72,7 @@ background-color: #1515df;
 
 .primary-btn {
     background-color: #1515df;
-    color: rgb(240, 243, 245);
+    color: var(--primary-text-color);
     margin: 20px auto; 
 }
 
@@ -118,9 +118,11 @@ footer {
   a {
     font-size: 2rem;
     padding: 20px;
+    color: #fff;
+    transition-duration: 400ms;
   }
   a:hover {
-    color: white;
+    color:#069;
   }
 }
 

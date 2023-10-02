@@ -9,6 +9,22 @@
   padding: 8px;
 }
 
+.home-cta {
+  margin: auto;
+  max-width: 700px;
+  text-align: center;
+}
+
+.home-cta a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.home-cta button:hover {
+  background-color: #1444a4;
+a {
+  color: rgb(243, 236, 236);
+}}
 button {
   display: block;
 }
@@ -31,7 +47,7 @@ li a {
 }
 
 li a:hover {
-  color: #121112;
+  color: black;
 }
 
 section {
@@ -151,19 +167,16 @@ input {
 }
 
 .project-btn {
-  background-color: #0b0b0b;
-  border: none;
-  padding: 15px;
-}
-
-.project-btn:hover a {
-  color: #ffffff;
-  font-weight: 550;
+  background-color: #1444a4;
+  padding: 10px;
 }
 
 .project-btn a {
-  color: rgb(220, 243, 241);
+  color: #ebeef3;
+
 }
+
+
 
 form {
   display: flex;
@@ -182,8 +195,8 @@ form {
   .active {
     display: block;
   }
-  .nav-btn {
-    margin-right: 40px;
+  #nav-btn {
+    margin-right: 10px;
   }
   .header-container {
     display: block;
