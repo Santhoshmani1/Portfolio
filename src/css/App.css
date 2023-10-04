@@ -220,4 +220,8 @@ form {
     display: flex;
     flex-direction: column;
   }
+  footer a {
+    font-size: 18px;
+    color: white;
+  }
 }
