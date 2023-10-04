@@ -140,10 +140,10 @@ ul#courses li {
 }
 
 #contact {
-background-color: var(--primary-color);
+background-color: var(--secondary-background);
 }
 
 #contact-container { 
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
+  background-color: var(--secondary-background);
+  color: var(--teritary-color);
 }

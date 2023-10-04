@@ -122,8 +122,8 @@ input {
   padding: 10px;
 }
 
-#contact-container {
-  background-color: #ffffff;
+#contact-container{
+  background-color: var(--secondary-background);
 }
 
 #projects-container {
@@ -176,9 +176,9 @@ form {
 } 
 
 .contact-submit:hover {
-  background-color: var(--secondary-background);
+  background-color: var(--primary-color);
   margin: 10px;
-  color: var(--teritary-color);
+  color: var(--secondary-color);
 }
 
 @media only screen and (max-width: 768px) {
