@@ -48,7 +48,7 @@ export const Contact = () => {
           <div className="button-container">
             <button
               type="submit"
-              className="btn primary-btn"
+              className="contact-submit"
               value="Send"
               onClick={sendMail}
             >

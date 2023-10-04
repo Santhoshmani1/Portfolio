@@ -7,6 +7,7 @@ import Skills from "./sections/skills";
 
 import "./css/App.css";
 import "./css/sections.css"
+import Education from "./sections/Education";
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <>
       <Header />
       <Home />
+      <Education />
       <Skills />
       <Projects />
       <Contact />

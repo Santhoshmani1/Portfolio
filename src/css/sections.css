@@ -1,10 +1,11 @@
-/* Home */
-
-
 /* Skills */
 
 #skills {
-  background-color: #ffffff;
+  background-color: var(--secondary-background);
+  border: 2px solid black;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px var(--teritary-background);
 }
 
 h3 {
@@ -35,6 +36,7 @@ h3 {
 div.skill {
   text-align: center;
   font-family: "Open Sans", "Roboto",sans-serif ;
+  margin: 5px;
 }
 
 div.skill-icon {
@@ -46,12 +48,102 @@ div.skill-icon:hover {
   cursor: pointer;
 }
 
+.skill:hover .skill-name {
+  font-weight: 530;
+}
+
+#education {
+  padding: 40px 10px;
+}
+
+.education-container {
+  font-family: "Roboto",sans-serif;
+}
+
+.edu-section-box {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 200px;
+}
+
+.bachelors-section {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.grade-title {
+  font-size: 1.2em;
+  letter-spacing: 0.6px;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.grade {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: var(--teritary-color);
+}
+
+.grad-span-years {
+  font-size: 1em;
+  color: var(--teritary-color);
+}
+
+
+.institution-location {
+  font-size: 1em;
+  color: #302e2e;
+}
+
+ul#courses {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+  list-style-type: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+ul#courses li {
+  padding: 8px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
 
 
 @media only screen and (max-width: 768px) {
   div.skill {
     font-size: 20px;
   }
+  .bachelors-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 
+#home {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+#skills,#contact,#projects {
+  padding: 70px 10px;
+}
+
+#contact {
+background-color: var(--primary-color);
+}
+
+#contact-container { 
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}

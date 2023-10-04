@@ -3,11 +3,10 @@ import {FaEarthAsia} from "react-icons/fa6";
 export const Projects = () => {
   return (
     <>
-      <section id="projects-box">
+      <section id="projects">
         <h2>Projects</h2>
         <div id="projects-container">
-          <section className="project">
-           
+        <section className="project">
             <div className="proj-details">
               <div className="proj-title">Project Title</div>
               <div className="proj-description">
