@@ -220,6 +220,10 @@ form {
     display: flex;
     flex-direction: column;
   }
+  .social-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
   footer a {
     font-size: 18px;
     color: white;
