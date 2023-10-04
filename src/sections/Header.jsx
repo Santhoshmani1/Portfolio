@@ -4,6 +4,7 @@ export const Header = () => {
   return (
     <>
       <div className="header-container">
+        <div className="header-wrapper">
         <div className="title-container">
          <a href="#"> <h1>Santhosh portfolio</h1></a>
         </div>
@@ -11,6 +12,7 @@ export const Header = () => {
         <button id="nav-btn" onClick={toggleNavbar}>
         <span className="material-icons" id="nav-btn-span">menu</span>
         </button>
+        </div>
 
         <div className="links-container inactive">
           <ul className="nav-list">

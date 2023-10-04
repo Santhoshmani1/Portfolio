@@ -50,7 +50,11 @@ li a:hover {
   color: var(--primary-color);
   font-weight: 600;
 }
-
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 #home {
   position: relative;
   padding-top: 100px;
@@ -186,8 +190,10 @@ form {
     display: none;
   }
   .active {
-    display: block;
+    display: flex;
+    align-items: center;
   }
+  
   #nav-btn {
     margin-right: 10px;
   }
@@ -200,11 +206,6 @@ form {
       float: right;
     }
   }
-  .links-container {
-    position: relative;
-    margin-top: 50px;
-    right: 140px;
-  }
   #nav-btn {
     display: block;
     float: right;
@@ -212,6 +213,7 @@ form {
   ul {
     flex-direction: column;
     justify-content: space-evenly;
+    min-width: 100vw;
   }
   li {
     padding: 15px;
