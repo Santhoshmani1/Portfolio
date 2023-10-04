@@ -7,14 +7,14 @@ const Footer = () => {
         <footer>
           <div className="social-container">
             <a
-              href="https://github.com/santhoshmani1"
+              href="https://twitter.com/SanthoshMani_P"
               rel="noreferrer"
               target="_blank"
             >
               <FaXTwitter />
             </a>
             <a
-              href="https://www.github.vom/santhoshmani1"
+              href="https://www.github.com/santhoshmani1"
               rel="noreferrer"
               target="_blank"
             >
@@ -28,7 +28,7 @@ const Footer = () => {
               <FaLinkedin />
             </a>
 
-            <a href="https://www.example.com" rel="noreferrer" target="_blank">
+            <a href="https://blog.santhoshmani.tech" rel="noreferrer" target="_blank">
               <FaEarthAmericas />
             </a>
           </div>

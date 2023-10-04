@@ -227,7 +227,6 @@ form {
     justify-content: space-evenly;
   }
   footer a {
-    font-size: 18px;
-    color: white;
+    font-size: 1rem;
   }
 }
