@@ -2,7 +2,10 @@
 
 #skills {
   background-color: var(--secondary-background);
+  border: 2px solid black;
+  margin: 10px;
   border-radius: 10px;
+  box-shadow: 2px 2px var(--teritary-background);
 }
 
 h3 {
@@ -143,15 +146,4 @@ background-color: var(--secondary-background);
 #contact-container { 
   background-color: var(--secondary-background);
   color: var(--teritary-color);
-}
-
-footer a {
-  font-size: 1.5em;
-  color: var(--secondary-color);
-  padding: 15px;
-}
-
-footer a:hover {
-  color: rgb(18, 151, 199);
-
 }

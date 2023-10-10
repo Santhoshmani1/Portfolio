@@ -5,12 +5,15 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export const Contact = () => {
+  const name = document.querySelector("#name");
+  const email = document.querySelector("#email");
+  const message = document.querySelector("#message");
+  console.log(name, email, message);
   function sendMail(event) {
     event.preventDefault();
-    const name = document.querySelector("#name");
-    const email = document.querySelector("#email");
-    const message = document.querySelector("#message");
-    console.log(name, email, message);
+    const message = document.querySelector("textarea");
+    console.log(message);
+    console.log(message);
     notify();
     const contactNumber = Math.floor(Math.random() * 100000);
     const form = event.target;
@@ -51,7 +54,7 @@ export const Contact = () => {
                 className="form-control"
                 id="name"
                 name="from_name"
-                placeholder="Enter your name"
+                placeholder="Your name"
                 required
                 minLength={5}
                 autoComplete="true"
@@ -64,27 +67,29 @@ export const Contact = () => {
                 id="email"
                 className="form-control"
                 name="from_email"
-                placeholder="Enter Email address"
-                minLength={10}
+                placeholder="Email address"
+                minLength={10} 
                 required
                 autoComplete="true"
               />
             </div>
             <div className="form-group">
               <label htmlFor="message">Message</label>
-              <textarea
-                style={{ fontFamily: "Open sans", fontSize: "1rem" }}
+              <textarea style={{fontFamily:"Open sans",fontSize:"1rem"}}
                 className="form-control"
                 name="message"
                 id="message"
                 minLength={10}
                 rows="10"
-                cols="40"
-                required
+                cols="40" required
               ></textarea>
             </div>
             <div className="button-container">
-              <button type="submit" className="contact-submit" value="Send">
+              <button
+                type="submit"
+                className="contact-submit"
+                value="Send"
+              >
                 Submit
               </button>
               <ToastContainer autoClose={1500} />

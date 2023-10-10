@@ -8,21 +8,9 @@
 body {
   box-sizing: border-box;
   margin: 0 auto;
-  overflow-x: hidden;
 }
 
 :root {
-  --primary-color: #1409af;
-  --secondary-color: #fff;
-  --teritary-color: #1e1e1e;
-
-  --primary-background: #a5a5a5;
-  --secondary-background: #f0f4f6;
-  --teritary-background: #0f1410;
-  --standout-bg:#e8e8f0;
-}
-
-:root.dark {
   --primary-color: #1409af;
   --secondary-color: #fff;
   --teritary-color: #1e1e1e;
