@@ -7,13 +7,14 @@ export const Home = () => {
             <h2>Home</h2>
           </div>
           <div className="section-content home-content">
-          <div className="home-introduction">
-          Hello, My name is Santhosh Mani. 
-            I am an second year Engineering undergraduate student from Andhra
-            pradesh, India.
-          </div>
+            <div className="home-introduction">
+              Hello, My name is Santhosh Mani.
+              <div className="home-intro">
+                I like to solve problems with code and love to explore and learn about latest advancements in software development.  
+              </div>
+            </div>
             <div className="home-cta">
-              Open for Internships and Hackathons Opportunities in Software Development  
+              Open for Internships and Hackathons Opportunities 
               <div className="cta-btns">
                 <button className="cta-btn">
                   <a

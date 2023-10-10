@@ -2,11 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: var(--secondary-background);
+  background-color: var(--header-background);
   z-index: 1000;
   position: fixed;
   width: 100%;
   padding: 8px;
+box-shadow: 2px 2px #f0ecec;
 }
 
 .home-cta,
@@ -26,29 +27,29 @@
 }
 
 .home-cta button:hover a {
-  color: var(--secondary-color)
+  color: var(--secondary-color);
 }
 
 ul {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin: 10px;
 }
 
 li {
-  padding: 15px;
+  padding: 10px;
 }
 li a {
-  font-size: 21px;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   color: var(--teritary-color);
   line-height: 20px;
-  font-weight: 550;
+  color: rgb(130, 126, 126);
+  font-size: 20px;
 }
 
 li a:hover {
   color: var(--primary-color);
-  font-weight: 600;
 }
 .header-wrapper {
   display: flex;
@@ -58,7 +59,7 @@ li a:hover {
 #home {
   position: relative;
   padding-top: 100px;
-  background-color:var(--standout-bg);
+  background-color: var(--standout-bg);
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   line-height: 30px;
@@ -126,7 +127,7 @@ input {
   padding: 10px;
 }
 
-#contact-container{
+#contact-container {
   background-color: var(--secondary-background);
 }
 
@@ -143,7 +144,8 @@ input {
   margin: 10px;
   padding: 20px;
   font-size: 20px;
-  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12), inset 0 -1px 0 0 var(--teritary-color);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12),
+    inset 0 -1px 0 0 var(--teritary-color);
 }
 
 .project-links-container {
@@ -173,11 +175,10 @@ form {
   align-items: center;
 }
 
-
 .contact-submit {
   background-color: var(--teritary-background);
   color: var(--secondary-color);
-} 
+}
 
 .contact-submit:hover {
   background-color: var(--primary-color);
@@ -193,22 +194,16 @@ form {
     display: flex;
     align-items: center;
   }
-  
+
   #nav-btn {
     margin-right: 10px;
   }
   .header-container {
     display: block;
-    h1 {
-      float: left;
-    }
-    #nav-btn {
-      float: right;
-    }
   }
   #nav-btn {
     display: block;
-    float: right;
+    margin-right: 10px;
   }
   ul {
     flex-direction: column;
@@ -216,17 +211,21 @@ form {
     min-width: 100vw;
   }
   li {
-    padding: 15px;
+    padding: 10px;
+    font-family: "Roboto", "Helvetica Neue", sans-serif;
+  }
+  .cta-btns {
+    flex-direction: column;
   }
   #projects-container {
     display: flex;
     flex-direction: column;
   }
+  textarea {
+    max-width: 70vw;
+  }
   .social-container {
     display: flex;
     justify-content: space-evenly;
-  }
-  footer a {
-    font-size: 1rem;
   }
 }

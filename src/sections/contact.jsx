@@ -5,13 +5,11 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export const Contact = () => {
-  const name = document.querySelector("#name");
-  const email = document.querySelector("#email");
-  const message = document.querySelector("#message");
-  console.log(name, email, message);
   function sendMail(event) {
     event.preventDefault();
-    const message = document.querySelector("textarea");
+    const name = document.querySelector("#name");
+    const email = document.querySelector("#email");
+    const message = document.querySelector("#message");
     console.log(message);
     console.log(message);
     notify();
