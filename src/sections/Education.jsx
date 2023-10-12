@@ -26,7 +26,7 @@ const Education = () => {
 
             <div className="coursework">
               <ul id="courses">
-                <h3>CourseWork</h3>
+                <h2>CourseWork</h2>
                 <li className="course-item">Data Structures and Algorithms</li>
                 <li className="course-item">Object Oriented Programming </li>
                 <li className="course-item">Version Control using Git</li>
@@ -38,7 +38,7 @@ const Education = () => {
           </div>
           <div className="edu-section-box">
             <div className="grade-title">
-              <h3>Class 12 / HSE</h3>
+              <h3>Higher secondary Education</h3>
               <span className="specialisation">
                 Mathematics and General Sciences (PCM)
               </span>

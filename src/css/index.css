@@ -24,13 +24,16 @@ section {
 }
 html.dark {
   --primary-color: #f8fbff;
-  --secondary-color: rgb(164, 161, 176);
+  --secondary-color: rgb(255, 255, 255);
   --teritary-color: rgb(222, 222, 226);
   --headings-color: #069aed;
   --primary-background: black;
   --secondary-background:#2d2b2b;
   --teritary-background: #252525;
   --header-background: #000000;
+}
+.mode-controller {
+  padding:  40px;
 }
 section {
   overflow-x: hidden;
@@ -85,11 +88,11 @@ button {
   color: var(--secondary-color);
   background-color: var(--teritary-background);
   border: none;
-  box-shadow: 0 2px 6px 0 rgba(53, 74, 237, 0.12), inset 0 -1px 0 0 #0e1f42;
 }
 
 button:hover {
-  background-color: var(--primary-color);
+  background-color: #069aed;
+  color: white;
 }
 
 input {
@@ -126,15 +129,6 @@ footer {
   line-height: 2em;
   font-family: "roboto", sans-serif;
   padding: 20px;
-  a {
-    font-size: 1.5rem;
-    padding: 15px;
-    color: var(--secondary-color);
-    transition-duration: 400ms;
-  }
-  a:hover {
-    color: var(--primary-color);
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -144,7 +138,9 @@ footer {
     margin: 10px;
   }
 }
-
+.mode-controller {
+  padding: 0;
+}
 .flex-col {
   display: flex;
   justify-content: space-evenly;

@@ -7,10 +7,9 @@
   position: fixed;
   width: 100%;
   padding: 8px;
-box-shadow: 2px 2px #f0ecec;
 }
-.mode-controller {
-  padding: 5px 40px;
+.header-wrapper {
+  width: 50%;
 }
 .home-cta,
 .home-introduction {
@@ -46,7 +45,7 @@ li a {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   color: var(--teritary-color);
   line-height: 20px;
-  color: rgb(130, 126, 126);
+  color: var(--teritary-color);
   font-size: 20px;
 }
 
@@ -78,7 +77,11 @@ li a:hover {
 
 #home button {
   outline: none;
-  box-shadow: 0 2px 6px 0 var(--secondary-color), inset 0 -1px 0 0 #1444a4;
+}
+
+#home button:hover {
+  background-color: #069aed;
+color: white;
 }
 
 .cta-btns {
@@ -146,8 +149,6 @@ input {
   margin: 10px;
   padding: 20px;
   font-size: 20px;
-  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12),
-    inset 0 -1px 0 0 var(--teritary-color);
 }
 
 .project-links-container {
@@ -183,9 +184,9 @@ form {
 }
 
 .contact-submit:hover {
-  background-color: var(--primary-color);
+  background-color: #069aed;
   margin: 10px;
-  color: var(--secondary-color);
+  color: white;
 }
 
 @media only screen and (max-width: 768px) {
@@ -196,7 +197,9 @@ form {
     display: flex;
     align-items: center;
   }
-
+  .header-wrapper {
+    width: 100%;
+  }
   #nav-btn {
     margin-right: 10px;
   }

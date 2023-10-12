@@ -2,8 +2,6 @@
 
 #skills {
   background-color: var(--secondary-background);
-  border: 2px solid black;
-  margin: 10px;
   border-radius: 10px;
   box-shadow: 2px 2px var(--teritary-background);
 }
@@ -36,7 +34,7 @@ h3 {
 div.skill {
   text-align: center;
   font-family: "Open Sans", "Roboto", sans-serif;
-  margin: 5px;
+  color: var(--teritary-color);
 }
 
 div.skill-icon {
