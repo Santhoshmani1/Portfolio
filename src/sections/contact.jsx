@@ -10,8 +10,6 @@ export const Contact = () => {
     const name = document.querySelector("#name");
     const email = document.querySelector("#email");
     const message = document.querySelector("#message");
-    console.log(message);
-    console.log(message);
     notify();
     const contactNumber = Math.floor(Math.random() * 100000);
     const form = event.target;
