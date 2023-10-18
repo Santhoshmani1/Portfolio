@@ -13,13 +13,13 @@ section {
   max-width: 100vw;
 }
 :root {
-  --primary-color: #1409af;
+  --primary-color: #07005f;
   --secondary-color: #fff;
   --teritary-color: black;
   --headings-color: #ff005d;
-  --primary-background: #e9eef2;
-  --secondary-background:#fdfefe;
-  --teritary-background: #232222;
+  --primary-background: #f5fffe;
+  --secondary-background:#e9f6fe;
+  --teritary-background: #0c0517;
   --header-background: #ffffff;
 }
 html.dark {
@@ -27,10 +27,10 @@ html.dark {
   --secondary-color: rgb(255, 255, 255);
   --teritary-color: rgb(222, 222, 226);
   --headings-color: #069aed;
-  --primary-background: black;
-  --secondary-background:#2d2b2b;
-  --teritary-background: #252525;
-  --header-background: #000000;
+  --primary-background: #111117;
+  --secondary-background:#12171a;
+  --teritary-background: #000000;
+  --header-background: #130747;
 }
 .mode-controller {
   padding:  40px;

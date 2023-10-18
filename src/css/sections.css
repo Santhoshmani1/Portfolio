@@ -12,6 +12,7 @@ h3 {
   font-size: 23px;
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.5px;
+  color:var(--teritary-color);
 }
 #skills-container {
   display: flex;
@@ -143,7 +144,6 @@ ul#courses li {
   padding-bottom: 40px;
   background-color: var(--primary-background);
   color: var(--teritary-color);
-  box-shadow: 2px 2px #f0ecec;
 }
 
 #home .cta-btns {

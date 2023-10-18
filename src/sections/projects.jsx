@@ -29,7 +29,7 @@ export const Projects = () => {
                 </div>
                 <div className="view-source">
                   <button className="project-btn">
-                    <a href="https://www.github.com/santhshmani/blog" target="_blank" rel="noreferrer">
+                    <a href="https://www.github.com/santhoshmani/blog" target="_blank" rel="noreferrer">
                       View source <FaGithub />
                     </a>
                   </button>
