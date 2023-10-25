@@ -183,3 +183,7 @@ ul#courses li {
 #contact-container {
   background-color: var(--primary-background);
 }
+
+.social-container a{
+  border-radius: 40px;
+}

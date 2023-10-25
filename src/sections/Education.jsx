@@ -17,7 +17,7 @@ const Education = () => {
                 </span>
               </div>
               <div className="grade">
-                9.05 / 10 CGPA (till 2nd sem)
+                9.05 / 10 CGPA
               </div>
               <div className="grad-span-years">2022 - 2026</div>
 

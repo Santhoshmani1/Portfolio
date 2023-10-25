@@ -1,6 +1,6 @@
 import { FaGithub } from "react-icons/fa";
 import { FaEarthAsia } from "react-icons/fa6";
-export const Projects = () => {
+ const Projects = () => {
   return (
     <>
       <section id="projects">
@@ -69,3 +69,5 @@ export const Projects = () => {
     </>
   );
 };
+
+export default Projects;

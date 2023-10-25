@@ -1,4 +1,4 @@
-export const Home = () => {
+const Home = () => {
   return (
     <>
       <section id="home">
@@ -10,7 +10,7 @@ export const Home = () => {
             <div className="home-introduction">
               Hello, My name is Santhosh Mani.
               <div className="home-intro">
-                I like to solve problems with code and love to explore and learn about latest advancements in software development.  
+                I enjoy building web apps using Javascript and Node JS.
               </div>
             </div>
             <div className="home-cta">
@@ -36,3 +36,5 @@ export const Home = () => {
     </>
   );
 };
+
+export default Home;

@@ -1,6 +1,6 @@
 // import { useState } from "react";
 
-export const Header = () => {
+const Header = () => {
   return (
     <>
       <div className="header-container">
@@ -15,7 +15,7 @@ export const Header = () => {
           <div className="mode-controller">
             <button onClick={changeMode}>
               <span className="material-icons" id="mode-element">
-                dark_mode
+                light_mode
               </span>
             </button>
           </div>
@@ -50,6 +50,8 @@ export const Header = () => {
     </>
   );
 };
+
+export default Header;
 
 function toggleNavbar() {
   const navContainer = document.querySelector(".links-container");

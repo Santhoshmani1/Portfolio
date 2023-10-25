@@ -17,10 +17,11 @@ section {
   --secondary-color: #fff;
   --teritary-color: black;
   --headings-color: #ff005d;
-  --primary-background: #f5fffe;
+  --primary-background: #d7f2ef;
   --secondary-background:#e9f6fe;
   --teritary-background: #0c0517;
   --header-background: #ffffff;
+  --links-color:#4a4a4a;
 }
 html.dark {
   --primary-color: #f8fbff;
@@ -148,6 +149,14 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+  h1,h2 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
+
   span.nav-btn {
     display: block;
     position: absolute;
@@ -163,6 +172,14 @@ footer {
   ul a {
     display: flex;
     align-items: center;
+  }
+  #courses li {
+    font-size: 0.8em;
+    text-align: center;
+    line-height: 1.5em;
+  }
+  .skill-name {
+    font-size: 0.8em;
   }
 }
 
