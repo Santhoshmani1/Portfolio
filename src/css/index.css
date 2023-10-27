@@ -17,7 +17,7 @@ section {
   --secondary-color: #fff;
   --teritary-color: black;
   --headings-color: #ff005d;
-  --primary-background: #d7f2ef;
+  --primary-background: #f1f3f4;
   --secondary-background:#e9f6fe;
   --teritary-background: #0c0517;
   --header-background: #ffffff;
@@ -32,6 +32,7 @@ html.dark {
   --secondary-background:#12171a;
   --teritary-background: #000000;
   --header-background: #130747;
+  --links-color:#c7c7c7;
 }
 .mode-controller {
   padding:  40px;

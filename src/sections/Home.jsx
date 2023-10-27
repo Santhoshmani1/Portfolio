@@ -6,7 +6,7 @@ const Home = () => {
           <div className="section-title">
             <h2>Home</h2>
           </div>
-          <div className="section-content home-content">
+          <div className="section-content home-content" style={{padding:" 0px 10px"}}>
             <div className="home-introduction">
               Hello, My name is Santhosh Mani.
               <div className="home-intro">

@@ -3,6 +3,7 @@
 import React from "react";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Animate from "./AnimateComponent";
 
 export const Contact = () => {
   function sendMail(event) {
@@ -42,50 +43,54 @@ export const Contact = () => {
         <div id="contact-container">
           <h2>Contact</h2>
           <form action="post" id="contact-form" onSubmit={sendMail}>
-            <div className="form-group">
-              <input type="hidden" name="contact_number" />
-              <label htmlFor="name">Name</label>
-              <input
-                type="text"
-                className="form-control"
-                id="name"
-                name="from_name"
-                placeholder="Your name"
-                required
-                minLength={5}
-                autoComplete="true"
-              />
-            </div>
-            <div className="form-group">
-              <label htmlFor="email">Email</label>
-              <input
-                type="email"
-                id="email"
-                className="form-control"
-                name="from_email"
-                placeholder="Email address"
-                minLength={10} 
-                required
-                autoComplete="true"
-              />
-            </div>
-            <div className="form-group">
-              <label htmlFor="message">Message</label>
-              <textarea style={{fontFamily:"Open sans",fontSize:"1rem"}}
-                className="form-control"
-                name="message"
-                id="message"
-                minLength={10}
-                rows="10"
-                cols="40" required
-              ></textarea>
-            </div>
+            <Animate>
+              <div className="form-group">
+                <input type="hidden" name="contact_number" />
+                <label htmlFor="name">Name</label>
+                <input
+                  type="text"
+                  className="form-control"
+                  id="name"
+                  name="from_name"
+                  placeholder="Your name"
+                  required
+                  minLength={5}
+                  autoComplete="true"
+                />
+              </div>
+            </Animate>
+            <Animate>
+              <div className="form-group">
+                <label htmlFor="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  className="form-control"
+                  name="from_email"
+                  placeholder="Email address"
+                  minLength={10}
+                  required
+                  autoComplete="true"
+                />
+              </div>
+            </Animate>
+            <Animate>
+              <div className="form-group">
+                <label htmlFor="message">Message</label>
+                <textarea
+                  style={{ fontFamily: "Open sans", fontSize: "1rem" }}
+                  className="form-control"
+                  name="message"
+                  id="message"
+                  minLength={10}
+                  rows="10"
+                  cols="40"
+                  required
+                ></textarea>
+              </div>
+            </Animate>
             <div className="button-container">
-              <button
-                type="submit"
-                className="contact-submit"
-                value="Send"
-              >
+              <button type="submit" className="contact-submit" value="Send">
                 Submit
               </button>
               <ToastContainer autoClose={1500} />

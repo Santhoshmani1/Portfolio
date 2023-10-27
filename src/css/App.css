@@ -18,6 +18,7 @@
   text-align: center;
 }
 
+
 .home-cta a {
   text-decoration: none;
   color: var(--secondary-color);
@@ -48,12 +49,12 @@ li {
   color: var(--links-color);
   font-size: 20px;
   font-weight: 550;
-  padding: 5px;
+  padding: 8px;
 }
 
 li a:hover {
   color: var(--secondary-color);
-  background-color: var(--teritary-background);
+  background-color:#069aed;
   border-radius: 8px;
 }
 .header-wrapper {
@@ -66,7 +67,7 @@ li a:hover {
   padding-top: 100px;
   background-color: var(--standout-bg);
   font-family: "Open Sans", sans-serif;
-  font-size: 18px;
+  font-size: 1.5rem;
   line-height: 30px;
   letter-spacing: 0.8px;
 }
@@ -194,6 +195,28 @@ input,textarea{
   background-color: #069aed;
   margin: 10px;
   color: white;
+}
+
+.animated-component {
+  opacity: 0.2;
+  transform: translateY(50px);
+  transition: transform 300ms ease;
+}
+
+.animated-component.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.animated-section {
+  opacity: 0.2;
+  transform: translateY(-100px);
+  transition: opacity 500ms, transform 300ms ease;
+}
+
+.animated-section.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 @media only screen and (max-width: 768px) {

@@ -1,8 +1,10 @@
 import { FaXTwitter, FaEarthAmericas } from "react-icons/fa6";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import Animate from "./AnimateComponent";
 const Footer = () => {
   return (
     <>
+    <Animate>
       <div className="footer-container">
         <footer>
           <div className="social-container">
@@ -39,6 +41,7 @@ const Footer = () => {
           </div>
         </footer>
       </div>
+      </Animate>
     </>
   );
 };
