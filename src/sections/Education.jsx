@@ -8,7 +8,6 @@ const Education = () => {
         <div className="education-container">
           <h2>Education</h2>
 
-          <Animate>
             <div className="bachelors-section">
               <div className="edu-section-box">
                 <div className="grade-title">
@@ -57,7 +56,6 @@ const Education = () => {
               <div className="grad-span-years">2020 - 2022</div>
               <div className="institution-location">Andhra Pradesh, India</div>
             </div>
-          </Animate>
         </div>
       </section>
     </>

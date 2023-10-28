@@ -10,7 +10,9 @@ const Projects = () => {
           <Animate>
             <section className="project">
               <div className="proj-details">
-                <div className="proj-title">Blog with Typescript & Next JS</div>
+                <div className="proj-title">
+                  Blog with Typescript & Next JS with Notion as CMS
+                </div>
                 <div className="proj-description">
                   {" "}
                   Built a responsive blog application using TS and Notion for
@@ -38,7 +40,7 @@ const Projects = () => {
                   <div className="view-source">
                     <button className="project-btn">
                       <a
-                        href="https://www.github.com/santhoshmani/blog"
+                        href="https://www.github.com/santhoshmani1/blog"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -51,32 +53,35 @@ const Projects = () => {
             </section>
           </Animate>
 
-          {/* <section className="project">
-            <div className="proj-details">
-              <div className="proj-title">Project Title</div>
-              <div className="proj-description">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-                doloribus eum molestiae voluptate praesentium nulla assumenda
-                sint debitis accusamus tempora.
-              </div>
-              <div className="project-links-container">
-                <div className="view-live">
-                  <button className="project-btn">
-                    <a href="https://www.example.com">
-                      View live <FaEarthAsia />
-                    </a>
-                  </button>
+          <Animate>
+            <section className="project">
+              <div className="proj-details">
+                <div className="proj-title">Clear Space</div>
+                <div className="proj-description">
+                  Clear space is a chrome extension which helps users from
+                  getting distracted and helps to stay focussed.
+                  <div className="features">
+                    <h3>Features</h3>
+                    <li>Removes interactions with Youtube shorts</li>
+                    <li>Blocks watch recommendations and Comments sections </li>
+                  </div>
                 </div>
-                <div className="view-source">
-                  <button className="project-btn">
-                    <a href="https://www.example.com">
-                      View source <FaGithub />
-                    </a>
-                  </button>
+                <div className="project-links-container">
+                  <div className="view-source">
+                    <button className="project-btn">
+                      <a
+                        href="https://www.github.com/Santhoshmani1/Clear-space"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        View source <FaGithub />
+                      </a>
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
-          </section> */}
+            </section>
+          </Animate>
         </div>
       </section>
     </>
